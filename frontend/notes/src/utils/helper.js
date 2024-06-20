@@ -5,7 +5,7 @@ export const validateEmail = (email) => {
 
 export const getInitials = (name) => {
   if (!name) return "";
-
+  
   const words = name.split(" ");
   let initials = "";
 
